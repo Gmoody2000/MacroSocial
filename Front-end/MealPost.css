@@ -1,0 +1,71 @@
+/* MealPost.css */
+
+/* Style for the meal post container */
+.meal-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the meal post title */
+  .meal-post h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the meal post description */
+  .meal-post p {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  /* Style for the interaction icons (e.g., like and comment icons) */
+  .meal-post .interaction-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  /* Style for each interaction icon */
+  .meal-post .interaction-icons i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  /* Hover effect for interaction icons */
+  .meal-post .interaction-icons i:hover {
+    color: #007bff;
+  }
+  
+  /* Style for the like count */
+  .meal-post .like-count {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Style for the comment section */
+  .meal-post .comments {
+    margin-top: 1rem;
+  }
+  
+  /* Style for individual comments */
+  .meal-post .comments .comment {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for comment author's name */
+  .meal-post .comments .comment .comment-author {
+    font-weight: bold;
+  }
+  
+  /* Style for comment text */
+  .meal-post .comments .comment .comment-text {
+    color: #333;
+  }
+  
